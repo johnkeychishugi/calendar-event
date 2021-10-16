@@ -5,14 +5,14 @@ const events = [
     id: 0,
     title: 'High Performence Computing',
     allDay: true,
-    start: new Date(2021, 10, 10),
-    end: new Date(2021, 10, 13),
+    start: new Date(2021, 9, 15),
+    end: new Date(2021, 9, 16),
   },
   {
     id: 1,
     title: 'Long Event',
-    start: new Date(2021, 3, 7),
-    end: new Date(2021, 3, 10),
+    start: new Date(2021, 15, 10),
+    end: new Date(2021, 16, 15),
   },
 
   {
@@ -25,8 +25,8 @@ const events = [
   {
     id: 3,
     title: 'DTS ENDS',
-    start: new Date(2021, 10, 6, 0, 0, 0),
-    end: new Date(2021, 10, 13, 0, 0, 0),
+    start: new Date(2021, 10, 1, 0, 0, 0),
+    end: new Date(2021, 10, 5, 0, 0, 0),
   },
 
   {
