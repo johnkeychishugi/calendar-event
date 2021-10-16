@@ -6,6 +6,10 @@ div .title{
   text-align: center;
   font-size: 24px;
 }
+
+.rbc-header a{
+  pointer-events: none;
+}
 .rbc-btn {
   color: inherit;
   font: inherit;
@@ -534,4 +538,5 @@ button.rbc-input::-moz-focus-inner {
   right: 0;
   height: 1px;
   background-color: #74ad31;
-  pointer-events: none; }
+  pointer-events: none;
+ }
