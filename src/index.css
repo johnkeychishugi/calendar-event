@@ -1,10 +1,11 @@
 div .content{
   margin: 50px;
 }
-div .title{
-  margin-bottom: 40px;
+.my-calendar .title{
+  margin-bottom: 20px;
   text-align: center;
-  font-size: 24px;
+  font-size: 26px;
+  font-weight: bold;
 }
 
 .rbc-time-view .rbc-label {
@@ -14,17 +15,46 @@ div .title{
   height: calc(100vh - 98px);
   max-height: unset;
 }
-.btn-color{
+.my-calendar .btn-color{
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 3px;
 }
-.btn-color button{
+.my-calendar .btn-color button{
   background: #f1356d;
   color: #fff;
   border: 0;
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+}
+
+.my-calendar .filter{
+  text-align: center;
+}
+
+.my-calendar .filter button{
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding:10px;
+}
+
+.my-calendar .filter input{
+  padding: 8px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd; 
+  box-sizing: border-box;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.my-calendar .filter input:focus{
+  outline: none !important;
+  border:1px solid #f1356d;
+  box-shadow: 0 0 10px #719ECE;
 }
 
 
