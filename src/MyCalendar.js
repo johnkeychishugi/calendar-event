@@ -52,7 +52,6 @@ const MyCalendar = () => {
           }
         }
       />
-
     </div>
   )
 }
