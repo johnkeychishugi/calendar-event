@@ -1,4 +1,4 @@
-const now = new Date()
+// const now = new Date()
 
 const events = [
   {
@@ -11,8 +11,8 @@ const events = [
   {
     id: 1,
     title: 'Long Event',
-    start: new Date(2021, 15, 10),
-    end: new Date(2021, 16, 15),
+    start: new Date(2021, 10, 10),
+    end: new Date(2021, 10, 15),
   },
 
   {
@@ -31,9 +31,9 @@ const events = [
 
   {
     id: 4,
-    title: 'Some Event',
-    start: new Date(2021, 3, 9, 0, 0, 0),
-    end: new Date(2021, 3, 10, 0, 0, 0),
+    title: 'Federeted cloud workshop',
+    start: new Date(2021, 9, 20, 10, 10, 0),
+    end: new Date(2021, 9, 23, 1, 10, 0),
   },
   {
     id: 5,
@@ -44,9 +44,9 @@ const events = [
   },
   {
     id: 6,
-    title: 'Meeting',
+    title: 'Meeting Covid Impact IMMAP',
     start: new Date(2021, 3, 12, 10, 30, 0, 0),
-    end: new Date(2021, 3, 12, 12, 30, 0, 0),
+    end: new Date(2021, 3, 13, 12, 30, 0, 0),
     desc: 'Pre-meeting meeting, to prepare for the meeting',
   },
   {
@@ -60,44 +60,44 @@ const events = [
     id: 8,
     title: 'Meeting',
     start: new Date(2021, 3, 12, 14, 0, 0, 0),
-    end: new Date(2021, 3, 12, 15, 0, 0, 0),
+    end: new Date(2021, 3, 13, 15, 0, 0, 0),
   },
   {
     id: 9,
     title: 'Happy Hour',
     start: new Date(2021, 3, 12, 17, 0, 0, 0),
-    end: new Date(2021, 3, 12, 17, 30, 0, 0),
+    end: new Date(2021, 3, 19, 14, 30, 0, 0),
     desc: 'Most important meal of the day',
   },
   {
     id: 10,
     title: 'Dinner',
     start: new Date(2021, 3, 12, 20, 0, 0, 0),
-    end: new Date(2021, 3, 12, 21, 0, 0, 0),
+    end: new Date(2021, 3, 13, 21, 0, 0, 0),
   },
   {
     id: 11,
     title: 'Planning Meeting with Paige',
-    start: new Date(2021, 3, 13, 8, 0, 0),
-    end: new Date(2021, 3, 13, 10, 30, 0),
+    start: new Date(2021, 3, 15, 8, 0, 0),
+    end: new Date(2021, 3, 16, 10, 30, 0),
   },
   {
     id: 11.1,
     title: 'Inconvenient Conference Call',
-    start: new Date(2021, 3, 13, 9, 30, 0),
-    end: new Date(2021, 3, 13, 12, 0, 0),
+    start: new Date(2021, 3, 16, 9, 30, 0),
+    end: new Date(2021, 3, 18, 12, 0, 0),
   },
   {
     id: 11.2,
     title: "Project Kickoff - Lou's Shoes",
     start: new Date(2021, 3, 13, 11, 30, 0),
-    end: new Date(2021, 3, 13, 14, 0, 0),
+    end: new Date(2021, 3, 14, 14, 0, 0),
   },
   {
     id: 11.3,
     title: 'Quote Follow-up - Tea by Tina',
     start: new Date(2021, 3, 13, 15, 30, 0),
-    end: new Date(2021, 3, 13, 16, 0, 0),
+    end: new Date(2021, 3, 17, 16, 0, 0),
   },
   {
     id: 12,
@@ -123,17 +123,17 @@ const events = [
     start: new Date(new Date().setHours(new Date().getHours() - 3)),
     end: new Date(new Date().setHours(new Date().getHours() + 3)),
   },
-  {
-    id: 15,
-    title: 'Today',
-    start: now,
-    end: now,
-  },
+  // {
+  //   id: 15,
+  //   title: 'Today Event',
+  //   start: now,
+  //   end: now,
+  // },
   {
     id: 16,
     title: 'Video Record',
     start: new Date(2021, 3, 14, 15, 30, 0),
-    end: new Date(2021, 3, 14, 19, 0, 0),
+    end: new Date(2021, 3, 15, 19, 0, 0),
   },
   {
     id: 17,
@@ -145,37 +145,37 @@ const events = [
     id: 18,
     title: 'Itaewon Halloween Meeting',
     start: new Date(2021, 3, 14, 16, 30, 0),
-    end: new Date(2021, 3, 14, 17, 30, 0),
+    end: new Date(2021, 3, 15, 17, 30, 0),
   },
   {
     id: 19,
     title: 'Online Coding Test',
     start: new Date(2021, 3, 14, 17, 30, 0),
-    end: new Date(2021, 3, 14, 20, 30, 0),
+    end: new Date(2021, 3, 15, 20, 30, 0),
   },
   {
     id: 20,
     title: 'An overlapped Event',
-    start: new Date(2021, 3, 14, 17, 0, 0),
+    start: new Date(2021, 3, 10, 17, 0, 0),
     end: new Date(2021, 3, 14, 18, 30, 0),
   },
   {
     id: 21,
     title: 'Phone Interview',
     start: new Date(2021, 3, 14, 17, 0, 0),
-    end: new Date(2021, 3, 14, 18, 30, 0),
+    end: new Date(2021, 3, 13, 18, 30, 0),
   },
   {
     id: 22,
     title: 'Cooking Class',
-    start: new Date(2021, 3, 14, 17, 30, 0),
+    start: new Date(2021, 3, 10, 17, 30, 0),
     end: new Date(2021, 3, 14, 19, 0, 0),
   },
   {
     id: 23,
     title: 'Go to the gym',
-    start: new Date(2021, 3, 14, 18, 30, 0),
-    end: new Date(2021, 3, 14, 20, 0, 0),
+    start: new Date(2021, 3, 18, 18, 30, 0),
+    end: new Date(2021, 3, 19, 20, 0, 0),
   },
 ];
 
