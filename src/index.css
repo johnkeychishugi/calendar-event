@@ -7,6 +7,20 @@ div .title{
   font-size: 24px;
 }
 
+.rbc-time-view .rbc-label {
+  display: none;
+}
+.rbc-time-view .rbc-allday-cell {
+  height: calc(100vh - 98px);
+  max-height: unset;
+}
+/* .rbc-time-view.rbc-time-content {
+  display: none;
+  } */
+
+
+
+
 .rbc-header a{
   pointer-events: none;
 }
@@ -516,7 +530,7 @@ button.rbc-input::-moz-focus-inner {
   flex: 1 0 0%;
   align-items: flex-start;
   width: 100%;
-  border-top: 2px solid #DDD;
+  /* border-top: 2px solid #DDD; */
   overflow-y: auto;
   position: relative; }
   .rbc-time-content > .rbc-time-gutter {
