@@ -5,7 +5,9 @@ import myEventsList from './events'
 const MyCalendar = () => {
   const localizer = momentLocalizer(moment);
   const views = ['month', 'week', 'agenda'];
-  
+
+   const maxTime = new Date();
+    maxTime.setHours(0,0,0);
   return (
     <div>
       <div className="title">Calender Event</div>
@@ -17,7 +19,7 @@ const MyCalendar = () => {
         endAccessor="end"
         style={{ height: 500 }}
         onSelectEvent={event => alert(event.title)}
-
+        max= {maxTime}
       />
     </div>
   )
