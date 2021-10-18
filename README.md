@@ -1,7 +1,7 @@
-# Calender Event
+# Calendar Event
 ## Application Description
 
-Calender Event is the platform to manage your events by tracking all the information about a particular event in the calender, avalaible in Month , Week and the agenda for the event.
+Calendar Event is the platform to manage your events by tracking all the information about a particular event in the calender, avalaible in Month , Week and the agenda for the event.
 ### Get start now
 
 - `git clone https://github.com/johnkeychishugi/calender-event.git`
