@@ -68,7 +68,7 @@ const MyCalendar = () => {
   
   return (
     <div className="my-calendar">
-      <div className="title">Calender Event</div>
+      <div className="title">Calendar Event</div>
       <div className="btn-color">
         <button onClick={handleChangeColor}>Change Color of event</button>
       </div>
